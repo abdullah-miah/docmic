@@ -1,0 +1,59 @@
+#banner-bg{
+    background-color: #F7F7F7;
+}
+#banner-title{
+    line-height: 72px;
+}
+
+#banner-p{
+    font-weight:400;
+    Size:16px;
+    Line-height:19.36px ;
+    margin-top: 14px;
+    margin-bottom: 39px;
+}
+#banner-btn{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    width: 190px;
+    height: 50px;
+    padding: 15px 20px;
+    border-radius: 5px;  
+}
+
+#count-width{
+    width: 493px;
+    height: 53px;
+}
+#banner-col-2{
+    width: 466px;
+    height: 466px;
+    background: linear-gradient(180deg, #F7F7F7 32.17%, rgba(100, 45, 255, 0.84) 100%);
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    border-radius: 50%;
+}
+#inner{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    background-color:#F7F7F7; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s ease-out;
+}
+#img-rotate{
+    transform: rotateY(20deg);
+}
+#col-1{
+    width: 600px;
+    margin-left: 20px;
+}
+#btn-checkup{
+    width: 163px;
+    height: 44px;
+    margin-top: -40px;
+}

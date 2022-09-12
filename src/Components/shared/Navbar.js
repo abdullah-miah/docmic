@@ -1,7 +1,7 @@
 import React from 'react';
 import './../shared/Navbar.css'
 
-const Navbar = () => {
+const Navbar = ({children}) => {
     return (
         <div>
             <div class="drawer drawer-end">
@@ -30,7 +30,7 @@ const Navbar = () => {
       </div>
     </div>
     {/* <!-- Page content here --> */}
-    Content
+    {children}
   </div> 
 
   
