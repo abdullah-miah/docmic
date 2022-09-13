@@ -17,7 +17,7 @@ const Appointment = () => {
                 <h1 className='text-secondary'>Our Hospital Feature</h1>
                 <h2 className='text-3xl font-medium text-success mt-3.5'>Make An Appointment Easy And Fast Services</h2>
               <div className='grid grid-cols-1 lg:grid-cols-2'>
-              <div className='bg-base-100 box mt-3.5'>
+              <div className='bg-base-100 box-2 mt-3.5'>
             <div className='flex justify-between ml-2 p-2'>
                 <p className='text-success'> 24 Hours Doctor Support </p>
                 <img src={group_1}/>
@@ -26,7 +26,7 @@ const Appointment = () => {
             simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
             </p>
             </div>
-              <div className='bg-base-100 box mt-3.5'>
+              <div className='bg-base-100 box-2 mt-3.5'>
             <div className='flex justify-between ml-2 p-2'>
                 <p className='text-success'>Exclusive Supports </p>
                 <img src={group_2}/>
@@ -37,7 +37,7 @@ const Appointment = () => {
             </div>
               </div>
               <div className='grid grid-cols-1 lg:grid-cols-2'>
-              <div className='bg-base-100 box mt-3.5'>
+              <div className='bg-base-100 box-2 mt-3.5'>
             <div className='flex justify-between ml-2 p-2'>
                 <p className='text-success'> Friendly Environment  </p>
                 <img src={group_3}/>
@@ -46,7 +46,7 @@ const Appointment = () => {
             simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
             </p>
             </div>
-              <div className='bg-base-100 box mt-3.5'>
+              <div className='bg-base-100 box-2 mt-3.5'>
             <div className='flex justify-between ml-2 p-2'>
                 <p className='text-success'>Exclusive Supports </p>
                 <img src={group_4}/>
