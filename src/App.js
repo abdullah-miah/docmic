@@ -2,6 +2,7 @@ import React from 'react';
 import Banner from './Components/Banner/Banner';
 import Services from './Components/Service/Services';
 import Navbar from './Components/shared/Navbar';
+import Treatment from './Components/Treatment/Treatment';
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
      <Navbar>
       <Banner></Banner>
       <Services></Services>
+      <Treatment></Treatment>
      </Navbar>
      
     </div>

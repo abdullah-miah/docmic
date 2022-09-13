@@ -8,7 +8,7 @@ const Navbar = ({children}) => {
   <input id="my-drawer-3" type="checkbox" class="drawer-toggle" /> 
   <div class="drawer-content flex flex-col">
     {/* <!-- Navbar --> */}
-    <div id='navbar-bg'  class="w-full navbar lg:px-40">
+    <div id='navbar-bg'  class="w-full navbar lg:px-44">
     <div class="flex-1 px-2 mx-2 text-2xl font-bold text-primary">Docmic.</div>
       <div class="flex-none lg:hidden">
         <label for="my-drawer-3" class="btn btn-square btn-ghost">

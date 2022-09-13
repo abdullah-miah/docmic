@@ -10,7 +10,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faPlus} from "@fortawesome/free-solid-svg-icons"
 const Banner = () => {
     return (
-        <div id='banner-bg' className='lg:px-40 mt-14'>
+        <div id='banner-bg' className='lg:px-44 mt-14'>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-6'>
                 <div id='col-1'>
                 <h1 id='banner-title' className='text-6xl font-medium'>Your <span className='text-primary'>Health</span> Is Our Top <span className='text-secondary'> Priority</span></h1>
