@@ -1,4 +1,5 @@
 import React from 'react';
+import Appointment from './Components/Appointment/Appointment';
 import Banner from './Components/Banner/Banner';
 import Services from './Components/Service/Services';
 import Navbar from './Components/shared/Navbar';
@@ -11,6 +12,7 @@ const App = () => {
       <Banner></Banner>
       <Services></Services>
       <Treatment></Treatment>
+      <Appointment></Appointment>
      </Navbar>
      
     </div>
